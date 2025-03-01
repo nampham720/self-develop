@@ -1,0 +1,175 @@
+[2025-02-28T22:30:34.126+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-28T22:30:34.129+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kafka_token_processing.produce_tokens scheduled__2025-02-28T20:25:00+00:00 [queued]>
+[2025-02-28T22:30:34.131+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kafka_token_processing.produce_tokens scheduled__2025-02-28T20:25:00+00:00 [queued]>
+[2025-02-28T22:30:34.131+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-02-28T22:30:34.136+0200] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): produce_tokens> on 2025-02-28 20:25:00+00:00
+[2025-02-28T22:30:34.142+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'kafka_token_processing', 'produce_tokens', 'scheduled__2025-02-28T20:25:00+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/kafka_token_processing.py', '--cfg-path', '/var/folders/dw/z1bbk7h952586r5vt211lpjc0000gn/T/tmpari_6q1e']
+[2025-02-28T22:30:34.142+0200] {logging_mixin.py:190} WARNING - /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=18700) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-28T22:30:34.143+0200] {standard_task_runner.py:72} INFO - Started process 18708 to run task
+[2025-02-28T22:30:34.143+0200] {standard_task_runner.py:105} INFO - Job 9: Subtask produce_tokens
+[2025-02-28T22:30:34.158+0200] {task_command.py:467} INFO - Running <TaskInstance: kafka_token_processing.produce_tokens scheduled__2025-02-28T20:25:00+00:00 [running]> on host nams-macbook-air.local
+[2025-02-28T22:30:34.179+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='kafka_token_processing' AIRFLOW_CTX_TASK_ID='produce_tokens' AIRFLOW_CTX_EXECUTION_DATE='2025-02-28T20:25:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-28T20:25:00+00:00'
+[2025-02-28T22:30:34.180+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-28T22:30:34.180+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-28T22:30:34.180+0200] {logging_mixin.py:190} INFO - Current task name:produce_tokens state:running start_date:2025-02-28 20:30:34.129945+00:00
+[2025-02-28T22:30:34.180+0200] {logging_mixin.py:190} INFO - Dag name:kafka_token_processing and current dag run status:running
+[2025-02-28T22:30:34.180+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2025-02-28T22:30:34.181+0200] {kafka_token_processing.py:26} INFO - Running producer task...
+[2025-02-28T22:30:43.538+0200] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-02-28T22:30:43.552+0200] {process_utils.py:132} INFO - Sending 15 to group 18708. PIDs of all processes in the group: [18709, 18708]
+[2025-02-28T22:30:43.553+0200] {process_utils.py:87} INFO - Sending the signal 15 to group 18708
+[2025-02-28T22:30:43.554+0200] {taskinstance.py:3094} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-02-28T22:30:43.564+0200] {taskinstance.py:3095} ERROR - Stacktrace: 
+  File "/Users/nampham/.pyenv/versions/3.12.9/bin/airflow", line 8, in <module>
+    sys.exit(main())
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/__main__.py", line 62, in main
+    args.func(args)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 254, in _run_task_by_selected_method
+    return _run_task_by_local_task_job(args, ti)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 322, in _run_task_by_local_task_job
+    ret = run_job(job=job_runner.job, execute_callable=job_runner._execute)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/jobs/job.py", line 421, in run_job
+    return execute_job(job, execute_callable=execute_callable)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/jobs/job.py", line 450, in execute_job
+    ret = execute_callable()
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/jobs/local_task_job_runner.py", line 171, in _execute
+    self.task_runner.start()
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 55, in start
+    self.process = self._start_by_fork()
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/kafka_token_processing.py", line 29, in producer_task
+    result = subprocess.run(["python3", "/Users/nampham/git_repos/self-develop/kafka-airflow/producers.py"], check=True, capture_output=True)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/subprocess.py", line 552, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/subprocess.py", line 1211, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/subprocess.py", line 2123, in _communicate
+    ready = selector.select(timeout)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3095, in signal_handler
+    self.log.error("Stacktrace: \n%s", "".join(traceback.format_stack()))
+
+[2025-02-28T22:30:43.570+0200] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/kafka_token_processing.py", line 29, in producer_task
+    result = subprocess.run(["python3", "/Users/nampham/git_repos/self-develop/kafka-airflow/producers.py"], check=True, capture_output=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/subprocess.py", line 552, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/subprocess.py", line 1211, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/subprocess.py", line 2123, in _communicate
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3097, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2025-02-28T22:30:43.575+0200] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-02-28T22:30:43.575+0200] {logging_mixin.py:190} INFO - Task start:2025-02-28 20:30:34.129945+00:00 end:2025-02-28 20:30:43.574723+00:00 duration:9.444778
+[2025-02-28T22:30:43.576+0200] {logging_mixin.py:190} INFO - Task:<Task(PythonOperator): produce_tokens> dag:<DAG: kafka_token_processing> dagrun:<DagRun kafka_token_processing @ 2025-02-28 20:25:00+00:00: scheduled__2025-02-28T20:25:00+00:00, state:running, queued_at: 2025-02-28 20:30:32.606576+00:00. externally triggered: False>
+[2025-02-28T22:30:43.576+0200] {logging_mixin.py:190} INFO - Failure caused by Task received SIGTERM signal
+[2025-02-28T22:30:43.577+0200] {taskinstance.py:1226} INFO - Marking task as UP_FOR_RETRY. dag_id=kafka_token_processing, task_id=produce_tokens, run_id=scheduled__2025-02-28T20:25:00+00:00, execution_date=20250228T202500, start_date=20250228T203034, end_date=20250228T203043
+[2025-02-28T22:30:43.587+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-28T22:30:43.615+0200] {process_utils.py:80} INFO - Process psutil.Process(pid=18708, status='terminated', exitcode=2, started='22:30:34') (18708) terminated with exit code 2
+[2025-02-28T22:30:43.615+0200] {process_utils.py:80} INFO - Process psutil.Process(pid=18709, status='terminated', started='22:30:34') (18709) terminated with exit code None
+[2025-02-28T22:30:46.658+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-28T22:30:46.660+0200] {taskinstance.py:2604} INFO - Dependencies not met for <TaskInstance: kafka_token_processing.produce_tokens scheduled__2025-02-28T20:25:00+00:00 [up_for_retry]>, dependency 'Not In Retry Period' FAILED: Task is not ready for retry yet but will be retried automatically. Current date is 2025-02-28T20:30:46.660294+00:00 and task will be retried at 2025-02-28T20:35:43.574723+00:00.
+[2025-02-28T22:30:46.661+0200] {local_task_job_runner.py:166} INFO - Task is not able to be run
+[2025-02-28T22:34:08.728+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-28T22:34:08.774+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kafka_token_processing.produce_tokens scheduled__2025-02-28T20:25:00+00:00 [queued]>
+[2025-02-28T22:34:08.776+0200] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kafka_token_processing.produce_tokens scheduled__2025-02-28T20:25:00+00:00 [queued]>
+[2025-02-28T22:34:08.776+0200] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-02-28T22:34:08.780+0200] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): produce_tokens> on 2025-02-28 20:25:00+00:00
+[2025-02-28T22:34:08.789+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'kafka_token_processing', 'produce_tokens', 'scheduled__2025-02-28T20:25:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/kafka_token_processing.py', '--cfg-path', '/var/folders/dw/z1bbk7h952586r5vt211lpjc0000gn/T/tmplrez2i93']
+[2025-02-28T22:34:08.791+0200] {standard_task_runner.py:105} INFO - Job 3: Subtask produce_tokens
+[2025-02-28T22:34:08.793+0200] {logging_mixin.py:190} WARNING - /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=19398) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-28T22:34:08.793+0200] {standard_task_runner.py:72} INFO - Started process 19406 to run task
+[2025-02-28T22:34:08.811+0200] {task_command.py:467} INFO - Running <TaskInstance: kafka_token_processing.produce_tokens scheduled__2025-02-28T20:25:00+00:00 [running]> on host nams-macbook-air.local
+[2025-02-28T22:34:08.830+0200] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='kafka_token_processing' AIRFLOW_CTX_TASK_ID='produce_tokens' AIRFLOW_CTX_EXECUTION_DATE='2025-02-28T20:25:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-28T20:25:00+00:00'
+[2025-02-28T22:34:08.830+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-28T22:34:08.830+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-28T22:34:08.831+0200] {logging_mixin.py:190} INFO - Current task name:produce_tokens state:running start_date:2025-02-28 20:34:08.774679+00:00
+[2025-02-28T22:34:08.831+0200] {logging_mixin.py:190} INFO - Dag name:kafka_token_processing and current dag run status:running
+[2025-02-28T22:34:08.831+0200] {taskinstance.py:732} INFO - ::endgroup::
+[2025-02-28T22:34:08.831+0200] {kafka_token_processing.py:26} INFO - Running producer task...
+[2025-02-28T22:34:18.220+0200] {kafka_token_processing.py:30} INFO - Producer task output: 
+[2025-02-28T22:34:18.221+0200] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-28T22:34:18.228+0200] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-28T22:34:18.229+0200] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=kafka_token_processing, task_id=produce_tokens, run_id=scheduled__2025-02-28T20:25:00+00:00, execution_date=20250228T202500, start_date=20250228T203408, end_date=20250228T203418
+[2025-02-28T22:34:18.239+0200] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-28T22:34:18.239+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-28T22:34:18.240+0200] {logging_mixin.py:190} INFO - Dag name:kafka_token_processing queued_at:2025-02-28 20:34:07.238241+00:00
+[2025-02-28T22:34:18.240+0200] {logging_mixin.py:190} INFO - Task hostname:nams-macbook-air.local operator:PythonOperator
+[2025-02-28T22:34:18.274+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-28T22:34:18.290+0200] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-28T22:34:18.290+0200] {local_task_job_runner.py:245} INFO - ::endgroup::

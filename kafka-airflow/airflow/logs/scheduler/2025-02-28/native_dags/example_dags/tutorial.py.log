@@ -1,0 +1,363 @@
+[2025-02-28T18:24:35.973+0200] {processor.py:186} INFO - Started process (PID=93103) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T18:24:35.974+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T18:24:35.974+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:35.974+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T18:24:35.978+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T18:24:36.068+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:36.068+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial
+[2025-02-28T18:24:36.071+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:36.071+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial
+[2025-02-28T18:24:36.073+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:36.073+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial
+[2025-02-28T18:24:36.075+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:36.075+0200] {override.py:1930} INFO - Created Permission View: can create on DAG Run:tutorial
+[2025-02-28T18:24:36.077+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:36.077+0200] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:tutorial
+[2025-02-28T18:24:36.079+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:36.079+0200] {override.py:1930} INFO - Created Permission View: can read on DAG Run:tutorial
+[2025-02-28T18:24:36.080+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:36.080+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:tutorial
+[2025-02-28T18:24:36.080+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:36.080+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T18:24:36.084+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:36.084+0200] {dag.py:3262} INFO - Creating ORM DAG for tutorial
+[2025-02-28T18:24:36.087+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:36.087+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T18:24:36.092+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.120 seconds
+[2025-02-28T18:26:24.349+0200] {processor.py:186} INFO - Started process (PID=93562) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T18:26:24.350+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T18:26:24.350+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:26:24.350+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T18:26:24.353+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T18:26:24.410+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:26:24.410+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T18:26:24.417+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:26:24.417+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T18:26:24.424+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.076 seconds
+[2025-02-28T18:27:45.806+0200] {processor.py:186} INFO - Started process (PID=93874) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T18:27:45.807+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T18:27:45.808+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:27:45.808+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T18:27:45.811+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T18:27:45.869+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:27:45.869+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T18:27:45.876+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:27:45.876+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T18:27:45.882+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.077 seconds
+[2025-02-28T18:29:05.481+0200] {processor.py:186} INFO - Started process (PID=94210) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T18:29:05.482+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T18:29:05.483+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:29:05.483+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T18:29:05.487+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T18:29:05.552+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:29:05.552+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T18:29:05.563+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:29:05.562+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T18:29:05.569+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.090 seconds
+[2025-02-28T18:30:27.268+0200] {processor.py:186} INFO - Started process (PID=94508) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T18:30:27.269+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T18:30:27.270+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:30:27.269+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T18:30:27.274+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T18:30:27.342+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:30:27.342+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T18:30:27.350+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:30:27.350+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T18:30:27.357+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.090 seconds
+[2025-02-28T18:32:00.507+0200] {processor.py:186} INFO - Started process (PID=94934) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T18:32:00.508+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T18:32:00.509+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:32:00.509+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T18:32:00.512+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T18:32:00.569+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:32:00.569+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T18:32:00.576+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:32:00.576+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T18:32:00.582+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.076 seconds
+[2025-02-28T20:10:49.615+0200] {processor.py:186} INFO - Started process (PID=97216) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:10:49.616+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T20:10:49.616+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:10:49.616+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:10:49.620+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:10:49.709+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:10:49.709+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T20:10:49.715+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:10:49.715+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T20:10:49.722+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.107 seconds
+[2025-02-28T20:12:37.992+0200] {processor.py:186} INFO - Started process (PID=97813) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:12:37.992+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T20:12:37.993+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:12:37.993+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:12:37.997+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:12:38.062+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:12:38.062+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T20:12:38.069+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:12:38.069+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T20:12:38.076+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.085 seconds
+[2025-02-28T20:14:28.168+0200] {processor.py:186} INFO - Started process (PID=98276) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:14:28.169+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T20:14:28.170+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:14:28.169+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:14:28.173+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:14:28.237+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:14:28.237+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T20:14:28.244+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:14:28.244+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T20:14:28.251+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.083 seconds
+[2025-02-28T20:15:48.598+0200] {processor.py:186} INFO - Started process (PID=98560) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:15:48.599+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T20:15:48.599+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:15:48.599+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:15:48.603+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:15:48.659+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:15:48.659+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T20:15:48.666+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:15:48.666+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T20:15:48.672+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.075 seconds
+[2025-02-28T20:17:05.476+0200] {processor.py:186} INFO - Started process (PID=98854) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:17:05.477+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T20:17:05.478+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:17:05.478+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:17:05.481+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:17:05.542+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:17:05.542+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T20:17:05.548+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:17:05.548+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T20:17:05.555+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.080 seconds
+[2025-02-28T20:18:19.026+0200] {processor.py:186} INFO - Started process (PID=99212) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:18:19.028+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T20:18:19.028+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:18:19.028+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:18:19.032+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:18:19.090+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:18:19.090+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T20:18:19.098+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:18:19.098+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T20:18:19.104+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.079 seconds
+[2025-02-28T20:20:12.567+0200] {processor.py:186} INFO - Started process (PID=99654) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:20:12.568+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T20:20:12.568+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:20:12.568+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:20:12.572+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:20:12.629+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:20:12.629+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T20:20:12.637+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:20:12.637+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T20:20:12.643+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.077 seconds
+[2025-02-28T20:21:32.492+0200] {processor.py:186} INFO - Started process (PID=99969) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:21:32.494+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T20:21:32.494+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:21:32.494+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:21:32.498+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:21:32.555+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:21:32.555+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T20:21:32.561+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:21:32.561+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T20:21:32.568+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.076 seconds
+[2025-02-28T20:22:46.195+0200] {processor.py:186} INFO - Started process (PID=319) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:22:46.196+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T20:22:46.196+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:22:46.196+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:22:46.200+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T20:22:46.258+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:22:46.258+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T20:22:46.265+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:22:46.265+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T20:22:46.271+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.077 seconds
+[2025-02-28T21:27:33.170+0200] {processor.py:186} INFO - Started process (PID=5438) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:27:33.171+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T21:27:33.172+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:27:33.172+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:27:33.176+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:27:33.233+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:27:33.233+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:27:33.240+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:27:33.240+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:27:33.246+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.077 seconds
+[2025-02-28T21:30:18.459+0200] {processor.py:186} INFO - Started process (PID=6096) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:30:18.460+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T21:30:18.460+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:30:18.460+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:30:18.464+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:30:18.522+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:30:18.522+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:30:18.530+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:30:18.530+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:30:18.536+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.078 seconds
+[2025-02-28T21:32:07.597+0200] {processor.py:186} INFO - Started process (PID=6527) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:32:07.598+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T21:32:07.599+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:32:07.599+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:32:07.603+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:32:07.681+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:32:07.681+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:32:07.691+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:32:07.690+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:32:07.698+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.102 seconds
+[2025-02-28T21:33:26.295+0200] {processor.py:186} INFO - Started process (PID=7031) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:33:26.295+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T21:33:26.296+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:33:26.296+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:33:26.299+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:33:26.355+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:33:26.355+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:33:26.362+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:33:26.361+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:33:26.369+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.075 seconds
+[2025-02-28T21:34:45.192+0200] {processor.py:186} INFO - Started process (PID=7327) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:34:45.192+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T21:34:45.193+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:34:45.193+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:34:45.197+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:34:45.269+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:34:45.269+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:34:45.277+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:34:45.277+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:34:45.284+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.094 seconds
+[2025-02-28T21:36:40.277+0200] {processor.py:186} INFO - Started process (PID=7824) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:36:40.278+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T21:36:40.279+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:36:40.278+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:36:40.282+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:36:40.372+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:36:40.372+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial
+[2025-02-28T21:36:40.375+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:36:40.375+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial
+[2025-02-28T21:36:40.377+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:36:40.377+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial
+[2025-02-28T21:36:40.380+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:36:40.380+0200] {override.py:1930} INFO - Created Permission View: can read on DAG Run:tutorial
+[2025-02-28T21:36:40.382+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:36:40.381+0200] {override.py:1930} INFO - Created Permission View: can create on DAG Run:tutorial
+[2025-02-28T21:36:40.383+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:36:40.383+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:tutorial
+[2025-02-28T21:36:40.385+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:36:40.385+0200] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:tutorial
+[2025-02-28T21:36:40.385+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:36:40.385+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:36:40.389+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:36:40.389+0200] {dag.py:3262} INFO - Creating ORM DAG for tutorial
+[2025-02-28T21:36:40.392+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:36:40.392+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:36:40.397+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.121 seconds
+[2025-02-28T21:38:33.223+0200] {processor.py:186} INFO - Started process (PID=8259) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:38:33.224+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T21:38:33.224+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:38:33.224+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:38:33.228+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:38:33.284+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:38:33.284+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:38:33.292+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:38:33.292+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:38:33.298+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.076 seconds
+[2025-02-28T21:39:50.078+0200] {processor.py:186} INFO - Started process (PID=8553) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:39:50.079+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T21:39:50.080+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:39:50.079+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:39:50.084+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:39:50.143+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:39:50.143+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:39:50.149+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:39:50.149+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:39:50.156+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.079 seconds
+[2025-02-28T21:42:10.475+0200] {processor.py:186} INFO - Started process (PID=9132) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:42:10.475+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T21:42:10.476+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:10.476+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:42:10.479+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:42:10.566+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:10.566+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial
+[2025-02-28T21:42:10.569+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:10.569+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial
+[2025-02-28T21:42:10.571+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:10.571+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial
+[2025-02-28T21:42:10.573+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:10.573+0200] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:tutorial
+[2025-02-28T21:42:10.575+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:10.575+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:tutorial
+[2025-02-28T21:42:10.577+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:10.577+0200] {override.py:1930} INFO - Created Permission View: can create on DAG Run:tutorial
+[2025-02-28T21:42:10.578+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:10.578+0200] {override.py:1930} INFO - Created Permission View: can read on DAG Run:tutorial
+[2025-02-28T21:42:10.579+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:10.578+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:42:10.582+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:10.582+0200] {dag.py:3262} INFO - Creating ORM DAG for tutorial
+[2025-02-28T21:42:10.585+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:10.585+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:42:10.590+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.117 seconds
+[2025-02-28T21:43:14.663+0200] {processor.py:186} INFO - Started process (PID=9492) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:43:14.664+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T21:43:14.665+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:43:14.665+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:43:14.669+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:43:14.733+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:43:14.732+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:43:14.740+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:43:14.739+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:43:14.746+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.084 seconds
+[2025-02-28T21:45:12.176+0200] {processor.py:186} INFO - Started process (PID=10011) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:45:12.177+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T21:45:12.177+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:45:12.177+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:45:12.182+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:45:12.240+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:45:12.239+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:45:12.247+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:45:12.247+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:45:12.253+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.078 seconds
+[2025-02-28T21:47:35.753+0200] {processor.py:186} INFO - Started process (PID=10558) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:47:35.754+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T21:47:35.754+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:47:35.754+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:47:35.758+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:47:35.815+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:47:35.815+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:47:35.822+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:47:35.821+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:47:35.828+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.076 seconds
+[2025-02-28T21:49:34.533+0200] {processor.py:186} INFO - Started process (PID=11002) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:49:34.535+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T21:49:34.535+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:49:34.535+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:49:34.538+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T21:49:34.595+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:49:34.595+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:49:34.601+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:49:34.601+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:49:34.608+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.075 seconds
+[2025-02-28T22:14:37.744+0200] {processor.py:186} INFO - Started process (PID=15713) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:14:37.744+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T22:14:37.745+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:37.745+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:14:37.748+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:14:37.837+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:37.837+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial
+[2025-02-28T22:14:37.840+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:37.840+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial
+[2025-02-28T22:14:37.842+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:37.842+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial
+[2025-02-28T22:14:37.844+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:37.844+0200] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:tutorial
+[2025-02-28T22:14:37.846+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:37.846+0200] {override.py:1930} INFO - Created Permission View: can create on DAG Run:tutorial
+[2025-02-28T22:14:37.847+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:37.847+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:tutorial
+[2025-02-28T22:14:37.849+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:37.849+0200] {override.py:1930} INFO - Created Permission View: can read on DAG Run:tutorial
+[2025-02-28T22:14:37.849+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:37.849+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:14:37.853+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:37.853+0200] {dag.py:3262} INFO - Creating ORM DAG for tutorial
+[2025-02-28T22:14:37.856+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:37.856+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:14:37.861+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.118 seconds
+[2025-02-28T22:27:31.899+0200] {processor.py:186} INFO - Started process (PID=18017) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:27:31.900+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T22:27:31.900+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:31.900+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:27:31.904+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:27:32.014+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:32.014+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial
+[2025-02-28T22:27:32.017+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:32.017+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial
+[2025-02-28T22:27:32.019+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:32.019+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial
+[2025-02-28T22:27:32.022+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:32.022+0200] {override.py:1930} INFO - Created Permission View: can read on DAG Run:tutorial
+[2025-02-28T22:27:32.023+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:32.023+0200] {override.py:1930} INFO - Created Permission View: can create on DAG Run:tutorial
+[2025-02-28T22:27:32.025+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:32.025+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:tutorial
+[2025-02-28T22:27:32.027+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:32.027+0200] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:tutorial
+[2025-02-28T22:27:32.027+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:32.027+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:27:32.031+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:32.031+0200] {dag.py:3262} INFO - Creating ORM DAG for tutorial
+[2025-02-28T22:27:32.034+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:32.034+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:27:32.040+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.142 seconds
+[2025-02-28T22:34:43.199+0200] {processor.py:186} INFO - Started process (PID=19508) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:34:43.199+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T22:34:43.200+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:34:43.200+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:34:43.204+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:34:43.305+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:34:43.305+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:tutorial
+[2025-02-28T22:34:43.308+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:34:43.308+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:tutorial
+[2025-02-28T22:34:43.310+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:34:43.310+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:tutorial
+[2025-02-28T22:34:43.312+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:34:43.312+0200] {override.py:1930} INFO - Created Permission View: can read on DAG Run:tutorial
+[2025-02-28T22:34:43.314+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:34:43.314+0200] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:tutorial
+[2025-02-28T22:34:43.315+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:34:43.315+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:tutorial
+[2025-02-28T22:34:43.317+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:34:43.317+0200] {override.py:1930} INFO - Created Permission View: can create on DAG Run:tutorial
+[2025-02-28T22:34:43.317+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:34:43.317+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:34:43.321+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:34:43.321+0200] {dag.py:3262} INFO - Creating ORM DAG for tutorial
+[2025-02-28T22:34:43.324+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:34:43.324+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:34:43.329+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.132 seconds
+[2025-02-28T22:37:27.750+0200] {processor.py:186} INFO - Started process (PID=20110) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:37:27.751+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T22:37:27.751+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:37:27.751+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:37:27.755+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:37:27.816+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:37:27.816+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:37:27.823+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:37:27.822+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:37:27.829+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.080 seconds
+[2025-02-28T22:39:08.366+0200] {processor.py:186} INFO - Started process (PID=20451) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:39:08.366+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T22:39:08.367+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:39:08.367+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:39:08.370+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:39:08.426+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:39:08.426+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:39:08.433+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:39:08.433+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:39:08.439+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.074 seconds
+[2025-02-28T22:40:48.959+0200] {processor.py:186} INFO - Started process (PID=20774) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:40:48.959+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T22:40:48.960+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:40:48.960+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:40:48.963+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:40:49.019+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:40:49.019+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:40:49.026+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:40:49.026+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:40:49.032+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.074 seconds
+[2025-02-28T22:41:59.513+0200] {processor.py:186} INFO - Started process (PID=21015) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:41:59.513+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T22:41:59.513+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:41:59.513+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:41:59.517+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:41:59.573+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:41:59.573+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:41:59.579+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:41:59.579+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:41:59.586+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.074 seconds
+[2025-02-28T22:43:11.177+0200] {processor.py:186} INFO - Started process (PID=21286) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:43:11.178+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T22:43:11.178+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:43:11.178+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:43:11.182+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:43:11.239+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:43:11.239+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:43:11.246+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:43:11.245+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:43:11.251+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.076 seconds
+[2025-02-28T22:44:29.173+0200] {processor.py:186} INFO - Started process (PID=21563) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:44:29.174+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T22:44:29.174+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:44:29.174+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:44:29.178+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:44:29.234+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:44:29.234+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:44:29.241+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:44:29.241+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:44:29.247+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.076 seconds
+[2025-02-28T22:46:11.944+0200] {processor.py:186} INFO - Started process (PID=21910) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:46:11.945+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T22:46:11.945+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:46:11.945+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:46:11.949+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:46:12.005+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:46:12.004+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:46:12.011+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:46:12.011+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:46:12.017+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.075 seconds
+[2025-02-28T22:47:41.330+0200] {processor.py:186} INFO - Started process (PID=22204) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:47:41.331+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T22:47:41.331+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:47:41.331+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:47:41.335+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:47:41.391+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:47:41.391+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:47:41.397+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:47:41.397+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:47:41.403+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.075 seconds
+[2025-02-28T22:54:28.184+0200] {processor.py:186} INFO - Started process (PID=22641) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:54:28.185+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T22:54:28.185+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:54:28.185+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:54:28.189+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:54:28.245+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:54:28.245+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:54:28.252+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:54:28.251+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:54:28.258+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.075 seconds
+[2025-02-28T22:56:12.446+0200] {processor.py:186} INFO - Started process (PID=23008) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:56:12.447+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T22:56:12.447+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:56:12.447+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:56:12.451+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:56:12.506+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:56:12.506+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:56:12.513+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:56:12.512+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:56:12.519+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.074 seconds
+[2025-02-28T22:57:39.308+0200] {processor.py:186} INFO - Started process (PID=23291) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:57:39.309+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T22:57:39.309+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:57:39.309+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:57:39.313+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:57:39.368+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:57:39.368+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:57:39.374+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:57:39.374+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:57:39.381+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.074 seconds
+[2025-02-28T22:58:56.513+0200] {processor.py:186} INFO - Started process (PID=23544) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:58:56.514+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T22:58:56.515+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:58:56.514+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:58:56.518+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T22:58:56.573+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:58:56.573+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:58:56.580+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:58:56.580+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:58:56.586+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.074 seconds
+[2025-02-28T23:00:40.087+0200] {processor.py:186} INFO - Started process (PID=23908) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T23:00:40.088+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T23:00:40.088+0200] {logging_mixin.py:190} INFO - [2025-02-28T23:00:40.088+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T23:00:40.091+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T23:00:40.147+0200] {logging_mixin.py:190} INFO - [2025-02-28T23:00:40.147+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T23:00:40.154+0200] {logging_mixin.py:190} INFO - [2025-02-28T23:00:40.153+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T23:00:40.160+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.074 seconds
+[2025-02-28T23:01:55.365+0200] {processor.py:186} INFO - Started process (PID=24157) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T23:01:55.365+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-02-28T23:01:55.366+0200] {logging_mixin.py:190} INFO - [2025-02-28T23:01:55.366+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T23:01:55.369+0200] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-02-28T23:01:55.426+0200] {logging_mixin.py:190} INFO - [2025-02-28T23:01:55.426+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T23:01:55.432+0200] {logging_mixin.py:190} INFO - [2025-02-28T23:01:55.432+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T23:01:55.438+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.075 seconds

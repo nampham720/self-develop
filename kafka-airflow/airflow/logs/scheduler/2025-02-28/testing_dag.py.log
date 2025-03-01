@@ -1,0 +1,230 @@
+[2025-02-28T21:42:53.321+0200] {processor.py:186} INFO - Started process (PID=9391) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T21:42:53.322+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T21:42:53.322+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:53.322+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T21:42:53.365+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:53.365+0200] {baseoperator.py:423} WARNING - PythonOperator.execute cannot be called outside TaskInstance!
+[2025-02-28T21:42:53.368+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:53.365+0200] {dagbag.py:387} ERROR - Failed to import: /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+Traceback (most recent call last):
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py", line 33, in <module>
+    print_pwd_task.execute(context=None)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/operators/python.py", line 234, in execute
+    context_merge(context, self.op_kwargs, templates_dict=self.templates_dict)
+  File "/Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/utils/context.py", line 449, in context_merge
+    context.update(*args, **kwargs)
+    ^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'update'
+[2025-02-28T21:42:53.368+0200] {processor.py:927} WARNING - No viable dags retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T21:42:53.750+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.430 seconds
+[2025-02-28T21:44:49.170+0200] {processor.py:186} INFO - Started process (PID=9910) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T21:44:49.171+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T21:44:49.171+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:44:49.171+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T21:44:49.212+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T21:44:49.302+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:44:49.302+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:testing_dag
+[2025-02-28T21:44:49.305+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:44:49.305+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:testing_dag
+[2025-02-28T21:44:49.307+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:44:49.307+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:testing_dag
+[2025-02-28T21:44:49.310+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:44:49.310+0200] {override.py:1930} INFO - Created Permission View: can create on DAG Run:testing_dag
+[2025-02-28T21:44:49.312+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:44:49.312+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:testing_dag
+[2025-02-28T21:44:49.314+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:44:49.314+0200] {override.py:1930} INFO - Created Permission View: can read on DAG Run:testing_dag
+[2025-02-28T21:44:49.316+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:44:49.316+0200] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:testing_dag
+[2025-02-28T21:44:49.316+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:44:49.316+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:44:49.321+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:44:49.321+0200] {dag.py:3262} INFO - Creating ORM DAG for testing_dag
+[2025-02-28T21:44:49.324+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:44:49.324+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T21:44:49.330+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.161 seconds
+[2025-02-28T21:47:09.441+0200] {processor.py:186} INFO - Started process (PID=10424) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T21:47:09.442+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T21:47:09.442+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:47:09.442+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T21:47:09.479+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T21:47:09.514+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:47:09.514+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:47:09.521+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:47:09.520+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:09:00+00:00, run_after=2025-02-27 00:10:00+00:00
+[2025-02-28T21:47:09.527+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.087 seconds
+[2025-02-28T21:49:15.416+0200] {processor.py:186} INFO - Started process (PID=10915) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T21:49:15.417+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T21:49:15.418+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:49:15.418+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T21:49:15.450+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T21:49:15.483+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:49:15.483+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:49:15.489+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:49:15.489+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:18:00+00:00, run_after=2025-02-27 00:19:00+00:00
+[2025-02-28T21:49:15.495+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.080 seconds
+[2025-02-28T21:51:03.383+0200] {processor.py:186} INFO - Started process (PID=11286) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T21:51:03.385+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T21:51:03.386+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:51:03.385+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T21:51:03.418+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T21:51:03.451+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:51:03.451+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:51:03.457+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:51:03.457+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:18:00+00:00, run_after=2025-02-27 00:19:00+00:00
+[2025-02-28T21:51:03.463+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.082 seconds
+[2025-02-28T21:54:55.656+0200] {processor.py:186} INFO - Started process (PID=11906) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T21:54:55.657+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T21:54:55.657+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:54:55.657+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T21:54:55.691+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T21:54:55.724+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:54:55.724+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:54:55.730+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:54:55.730+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:18:00+00:00, run_after=2025-02-27 00:19:00+00:00
+[2025-02-28T21:54:55.737+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.082 seconds
+[2025-02-28T22:14:09.831+0200] {processor.py:186} INFO - Started process (PID=15592) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:14:09.832+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:14:09.832+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:09.832+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:14:09.866+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:14:09.933+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:09.933+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:testing_dag
+[2025-02-28T22:14:09.936+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:09.936+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:testing_dag
+[2025-02-28T22:14:09.938+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:09.938+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:testing_dag
+[2025-02-28T22:14:09.940+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:09.940+0200] {override.py:1930} INFO - Created Permission View: can read on DAG Run:testing_dag
+[2025-02-28T22:14:09.942+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:09.942+0200] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:testing_dag
+[2025-02-28T22:14:09.944+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:09.944+0200] {override.py:1930} INFO - Created Permission View: can create on DAG Run:testing_dag
+[2025-02-28T22:14:09.946+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:09.946+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:testing_dag
+[2025-02-28T22:14:09.946+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:09.946+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:14:09.950+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:09.950+0200] {dag.py:3262} INFO - Creating ORM DAG for testing_dag
+[2025-02-28T22:14:09.953+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:14:09.953+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:14:09.958+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.128 seconds
+[2025-02-28T22:22:53.910+0200] {processor.py:186} INFO - Started process (PID=17115) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:22:53.911+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:22:53.911+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:22:53.911+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:22:53.944+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:22:53.978+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:22:53.978+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:22:53.984+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:22:53.983+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:22:53.989+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.080 seconds
+[2025-02-28T22:25:39.850+0200] {processor.py:186} INFO - Started process (PID=17622) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:25:39.851+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:25:39.852+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:25:39.852+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:25:39.885+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:25:39.950+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:25:39.949+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:testing_dag
+[2025-02-28T22:25:39.952+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:25:39.952+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:testing_dag
+[2025-02-28T22:25:39.955+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:25:39.955+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:testing_dag
+[2025-02-28T22:25:39.957+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:25:39.957+0200] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:testing_dag
+[2025-02-28T22:25:39.959+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:25:39.959+0200] {override.py:1930} INFO - Created Permission View: can create on DAG Run:testing_dag
+[2025-02-28T22:25:39.961+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:25:39.960+0200] {override.py:1930} INFO - Created Permission View: can read on DAG Run:testing_dag
+[2025-02-28T22:25:39.962+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:25:39.962+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:testing_dag
+[2025-02-28T22:25:39.962+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:25:39.962+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:25:39.967+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:25:39.967+0200] {dag.py:3262} INFO - Creating ORM DAG for testing_dag
+[2025-02-28T22:25:39.969+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:25:39.969+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:25:39.974+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.125 seconds
+[2025-02-28T22:27:12.226+0200] {processor.py:186} INFO - Started process (PID=17941) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:27:12.227+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:27:12.228+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:12.227+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:27:12.260+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:27:12.292+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:12.292+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:27:12.298+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:12.298+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:27:12.304+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.079 seconds
+[2025-02-28T22:29:05.946+0200] {processor.py:186} INFO - Started process (PID=18395) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:29:05.947+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:29:05.948+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:29:05.948+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:29:05.981+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:29:06.014+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:29:06.014+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:29:06.020+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:29:06.020+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:29:06.027+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.082 seconds
+[2025-02-28T22:33:51.334+0200] {processor.py:186} INFO - Started process (PID=19317) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:33:51.335+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:33:51.335+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:33:51.335+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:33:51.373+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:33:51.442+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:33:51.441+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:testing_dag
+[2025-02-28T22:33:51.445+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:33:51.445+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:testing_dag
+[2025-02-28T22:33:51.447+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:33:51.446+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:testing_dag
+[2025-02-28T22:33:51.449+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:33:51.449+0200] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:testing_dag
+[2025-02-28T22:33:51.451+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:33:51.451+0200] {override.py:1930} INFO - Created Permission View: can create on DAG Run:testing_dag
+[2025-02-28T22:33:51.453+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:33:51.453+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:testing_dag
+[2025-02-28T22:33:51.454+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:33:51.454+0200] {override.py:1930} INFO - Created Permission View: can read on DAG Run:testing_dag
+[2025-02-28T22:33:51.455+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:33:51.454+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:33:51.459+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:33:51.459+0200] {dag.py:3262} INFO - Creating ORM DAG for testing_dag
+[2025-02-28T22:33:51.462+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:33:51.462+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:33:51.467+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.134 seconds
+[2025-02-28T22:37:08.211+0200] {processor.py:186} INFO - Started process (PID=20039) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:37:08.211+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:37:08.212+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:37:08.212+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:37:08.245+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:37:08.278+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:37:08.278+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:37:08.284+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:37:08.284+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:37:08.290+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.081 seconds
+[2025-02-28T22:38:51.472+0200] {processor.py:186} INFO - Started process (PID=20393) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:38:51.473+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:38:51.474+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:38:51.474+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:38:51.505+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:38:51.538+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:38:51.538+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:38:51.544+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:38:51.544+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:38:51.550+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.079 seconds
+[2025-02-28T22:40:11.863+0200] {processor.py:186} INFO - Started process (PID=20658) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:40:11.864+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:40:11.865+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:40:11.865+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:40:11.898+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:40:11.931+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:40:11.931+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:40:11.937+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:40:11.937+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:40:11.943+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.080 seconds
+[2025-02-28T22:41:40.759+0200] {processor.py:186} INFO - Started process (PID=20952) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:41:40.759+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:41:40.760+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:41:40.760+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:41:40.792+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:41:40.824+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:41:40.824+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:41:40.830+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:41:40.830+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:41:40.837+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.079 seconds
+[2025-02-28T22:42:51.532+0200] {processor.py:186} INFO - Started process (PID=21219) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:42:51.533+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:42:51.533+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:42:51.533+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:42:51.566+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:42:51.598+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:42:51.598+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:42:51.604+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:42:51.604+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:42:51.610+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.079 seconds
+[2025-02-28T22:44:09.802+0200] {processor.py:186} INFO - Started process (PID=21500) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:44:09.802+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:44:09.803+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:44:09.803+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:44:09.835+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:44:09.869+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:44:09.868+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:44:09.874+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:44:09.874+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:44:09.880+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.079 seconds
+[2025-02-28T22:45:52.616+0200] {processor.py:186} INFO - Started process (PID=21850) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:45:52.618+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:45:52.618+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:45:52.618+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:45:52.650+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:45:52.683+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:45:52.682+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:45:52.688+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:45:52.688+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:45:52.694+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.079 seconds
+[2025-02-28T22:47:21.690+0200] {processor.py:186} INFO - Started process (PID=22140) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:47:21.690+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:47:21.691+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:47:21.691+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:47:21.723+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:47:21.756+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:47:21.756+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:47:21.762+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:47:21.762+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:47:21.768+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.079 seconds
+[2025-02-28T22:53:40.419+0200] {processor.py:186} INFO - Started process (PID=22418) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:53:40.420+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:53:40.421+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:53:40.420+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:53:40.456+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:53:40.489+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:53:40.489+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:53:40.495+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:53:40.495+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:53:40.501+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.083 seconds
+[2025-02-28T22:55:53.229+0200] {processor.py:186} INFO - Started process (PID=22944) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:55:53.230+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:55:53.231+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:55:53.231+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:55:53.263+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:55:53.295+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:55:53.295+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:55:53.301+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:55:53.301+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:55:53.307+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.079 seconds
+[2025-02-28T22:57:21.051+0200] {processor.py:186} INFO - Started process (PID=23232) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:57:21.052+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:57:21.052+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:57:21.052+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:57:21.085+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:57:21.117+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:57:21.117+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:57:21.123+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:57:21.122+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:57:21.128+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.079 seconds
+[2025-02-28T22:58:37.732+0200] {processor.py:186} INFO - Started process (PID=23480) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:58:37.734+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:58:37.734+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:58:37.734+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:58:37.767+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:58:37.799+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:58:37.799+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:58:37.804+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:58:37.804+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:58:37.810+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.079 seconds
+[2025-02-28T22:59:54.342+0200] {processor.py:186} INFO - Started process (PID=23732) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:59:54.343+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T22:59:54.344+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:59:54.344+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:59:54.376+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T22:59:54.409+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:59:54.409+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:59:54.415+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:59:54.415+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T22:59:54.420+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.080 seconds
+[2025-02-28T23:01:35.705+0200] {processor.py:186} INFO - Started process (PID=24089) to work on /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T23:01:35.705+0200] {processor.py:914} INFO - Processing file /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py for tasks to queue
+[2025-02-28T23:01:35.706+0200] {logging_mixin.py:190} INFO - [2025-02-28T23:01:35.706+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T23:01:35.738+0200] {processor.py:925} INFO - DAG(s) 'testing_dag' retrieved from /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py
+[2025-02-28T23:01:35.771+0200] {logging_mixin.py:190} INFO - [2025-02-28T23:01:35.771+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T23:01:35.777+0200] {logging_mixin.py:190} INFO - [2025-02-28T23:01:35.776+0200] {dag.py:4180} INFO - Setting next_dagrun for testing_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-27 00:01:00+00:00
+[2025-02-28T23:01:35.783+0200] {processor.py:208} INFO - Processing /Users/nampham/git_repos/self-develop/kafka-airflow/airflow/dags/testing_dag.py took 0.079 seconds

@@ -1,0 +1,327 @@
+[2025-02-28T18:24:57.162+0200] {processor.py:186} INFO - Started process (PID=93199) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T18:24:57.162+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T18:24:57.163+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:57.163+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T18:24:57.166+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T18:24:57.254+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:57.254+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2025-02-28T18:24:57.257+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:57.257+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2025-02-28T18:24:57.259+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:57.259+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2025-02-28T18:24:57.261+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:57.261+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_skip_dag
+[2025-02-28T18:24:57.263+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:57.263+0200] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_skip_dag
+[2025-02-28T18:24:57.265+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:57.265+0200] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_skip_dag
+[2025-02-28T18:24:57.266+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:57.266+0200] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_skip_dag
+[2025-02-28T18:24:57.267+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:57.266+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T18:24:57.270+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:57.270+0200] {dag.py:3262} INFO - Creating ORM DAG for example_skip_dag
+[2025-02-28T18:24:57.273+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:24:57.273+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T18:24:57.278+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.117 seconds
+[2025-02-28T18:26:45.284+0200] {processor.py:186} INFO - Started process (PID=93647) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T18:26:45.286+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T18:26:45.286+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:26:45.286+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T18:26:45.289+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T18:26:45.346+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:26:45.346+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T18:26:45.353+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:26:45.353+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T18:26:45.359+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.076 seconds
+[2025-02-28T18:28:05.781+0200] {processor.py:186} INFO - Started process (PID=93969) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T18:28:05.782+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T18:28:05.783+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:28:05.783+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T18:28:05.786+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T18:28:05.844+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:28:05.844+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T18:28:05.852+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:28:05.852+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T18:28:05.858+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.078 seconds
+[2025-02-28T18:29:27.912+0200] {processor.py:186} INFO - Started process (PID=94298) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T18:29:27.913+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T18:29:27.914+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:29:27.913+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T18:29:27.916+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T18:29:27.975+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:29:27.975+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T18:29:27.983+0200] {logging_mixin.py:190} INFO - [2025-02-28T18:29:27.982+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T18:29:27.989+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.078 seconds
+[2025-02-28T20:11:11.291+0200] {processor.py:186} INFO - Started process (PID=97297) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:11:11.292+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T20:11:11.292+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:11:11.292+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:11:11.295+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:11:11.382+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:11:11.382+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T20:11:11.388+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:11:11.388+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T20:11:11.395+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.105 seconds
+[2025-02-28T20:12:59.791+0200] {processor.py:186} INFO - Started process (PID=97910) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:12:59.792+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T20:12:59.792+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:12:59.792+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:12:59.795+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:12:59.861+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:12:59.861+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T20:12:59.868+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:12:59.868+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T20:12:59.874+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.085 seconds
+[2025-02-28T20:14:49.338+0200] {processor.py:186} INFO - Started process (PID=98359) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:14:49.339+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T20:14:49.339+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:14:49.339+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:14:49.342+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:14:49.401+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:14:49.401+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T20:14:49.408+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:14:49.408+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T20:14:49.414+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.078 seconds
+[2025-02-28T20:16:09.375+0200] {processor.py:186} INFO - Started process (PID=98643) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:16:09.376+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T20:16:09.376+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:16:09.376+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:16:09.379+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:16:09.438+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:16:09.438+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T20:16:09.445+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:16:09.445+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T20:16:09.451+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.078 seconds
+[2025-02-28T20:17:24.860+0200] {processor.py:186} INFO - Started process (PID=98924) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:17:24.861+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T20:17:24.861+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:17:24.861+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:17:24.864+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:17:24.922+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:17:24.921+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T20:17:24.928+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:17:24.928+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T20:17:24.934+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.076 seconds
+[2025-02-28T20:18:39.275+0200] {processor.py:186} INFO - Started process (PID=99297) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:18:39.276+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T20:18:39.277+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:18:39.277+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:18:39.280+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:18:39.340+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:18:39.340+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T20:18:39.348+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:18:39.347+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T20:18:39.354+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.080 seconds
+[2025-02-28T20:20:32.307+0200] {processor.py:186} INFO - Started process (PID=99726) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:20:32.309+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T20:20:32.309+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:20:32.309+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:20:32.312+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:20:32.371+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:20:32.371+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T20:20:32.378+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:20:32.378+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T20:20:32.384+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.078 seconds
+[2025-02-28T20:21:52.662+0200] {processor.py:186} INFO - Started process (PID=140) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:21:52.663+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T20:21:52.664+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:21:52.664+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:21:52.667+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:21:52.725+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:21:52.725+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T20:21:52.732+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:21:52.732+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T20:21:52.738+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.077 seconds
+[2025-02-28T20:23:06.411+0200] {processor.py:186} INFO - Started process (PID=399) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:23:06.412+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T20:23:06.412+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:23:06.412+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:23:06.415+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T20:23:06.474+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:23:06.474+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T20:23:06.481+0200] {logging_mixin.py:190} INFO - [2025-02-28T20:23:06.481+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T20:23:06.487+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.078 seconds
+[2025-02-28T21:27:54.505+0200] {processor.py:186} INFO - Started process (PID=5518) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:27:54.506+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T21:27:54.507+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:27:54.507+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:27:54.510+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:27:54.572+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:27:54.571+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:27:54.580+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:27:54.580+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:27:54.586+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.083 seconds
+[2025-02-28T21:30:40.109+0200] {processor.py:186} INFO - Started process (PID=6181) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:30:40.110+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T21:30:40.111+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:30:40.111+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:30:40.114+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:30:40.171+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:30:40.171+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:30:40.178+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:30:40.178+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:30:40.184+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.076 seconds
+[2025-02-28T21:32:28.205+0200] {processor.py:186} INFO - Started process (PID=6610) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:32:28.206+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T21:32:28.207+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:32:28.207+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:32:28.210+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:32:28.268+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:32:28.268+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:32:28.275+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:32:28.275+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:32:28.281+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.077 seconds
+[2025-02-28T21:33:46.603+0200] {processor.py:186} INFO - Started process (PID=7115) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:33:46.604+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T21:33:46.605+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:33:46.605+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:33:46.607+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:33:46.666+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:33:46.666+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:33:46.673+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:33:46.673+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:33:46.679+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.077 seconds
+[2025-02-28T21:35:06.620+0200] {processor.py:186} INFO - Started process (PID=7409) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:35:06.621+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T21:35:06.622+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:35:06.622+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:35:06.625+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:35:06.701+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:35:06.701+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:35:06.709+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:35:06.709+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:35:06.715+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.097 seconds
+[2025-02-28T21:37:02.978+0200] {processor.py:186} INFO - Started process (PID=7902) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:37:02.979+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T21:37:02.980+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:37:02.980+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:37:02.983+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:37:03.074+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:37:03.073+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2025-02-28T21:37:03.076+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:37:03.076+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2025-02-28T21:37:03.078+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:37:03.078+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2025-02-28T21:37:03.081+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:37:03.081+0200] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_skip_dag
+[2025-02-28T21:37:03.082+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:37:03.082+0200] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_skip_dag
+[2025-02-28T21:37:03.084+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:37:03.084+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_skip_dag
+[2025-02-28T21:37:03.086+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:37:03.086+0200] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_skip_dag
+[2025-02-28T21:37:03.086+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:37:03.086+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:37:03.090+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:37:03.090+0200] {dag.py:3262} INFO - Creating ORM DAG for example_skip_dag
+[2025-02-28T21:37:03.094+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:37:03.094+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:37:03.100+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.123 seconds
+[2025-02-28T21:38:53.339+0200] {processor.py:186} INFO - Started process (PID=8331) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:38:53.340+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T21:38:53.340+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:38:53.340+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:38:53.343+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:38:53.401+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:38:53.401+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:38:53.408+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:38:53.408+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:38:53.415+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.077 seconds
+[2025-02-28T21:40:11.805+0200] {processor.py:186} INFO - Started process (PID=8621) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:40:11.806+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T21:40:11.806+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:40:11.806+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:40:11.810+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:40:11.882+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:40:11.881+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:40:11.889+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:40:11.889+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:40:11.895+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.092 seconds
+[2025-02-28T21:42:30.500+0200] {processor.py:186} INFO - Started process (PID=9220) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:42:30.501+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T21:42:30.501+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:30.501+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:42:30.504+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:42:30.595+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:30.595+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2025-02-28T21:42:30.598+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:30.598+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2025-02-28T21:42:30.600+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:30.600+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2025-02-28T21:42:30.602+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:30.602+0200] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_skip_dag
+[2025-02-28T21:42:30.604+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:30.604+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_skip_dag
+[2025-02-28T21:42:30.606+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:30.606+0200] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_skip_dag
+[2025-02-28T21:42:30.607+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:30.607+0200] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_skip_dag
+[2025-02-28T21:42:30.608+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:30.608+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:42:30.611+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:30.611+0200] {dag.py:3262} INFO - Creating ORM DAG for example_skip_dag
+[2025-02-28T21:42:30.615+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:42:30.614+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:42:30.620+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.121 seconds
+[2025-02-28T21:43:37.039+0200] {processor.py:186} INFO - Started process (PID=9588) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:43:37.041+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T21:43:37.041+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:43:37.041+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:43:37.044+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:43:37.108+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:43:37.108+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:43:37.115+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:43:37.115+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:43:37.121+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.083 seconds
+[2025-02-28T21:45:38.937+0200] {processor.py:186} INFO - Started process (PID=10134) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:45:38.938+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T21:45:38.938+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:45:38.938+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:45:38.941+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:45:38.999+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:45:38.999+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:45:39.006+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:45:39.006+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:45:39.012+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.076 seconds
+[2025-02-28T21:47:58.430+0200] {processor.py:186} INFO - Started process (PID=10670) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:47:58.431+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T21:47:58.432+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:47:58.431+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:47:58.434+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T21:47:58.492+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:47:58.492+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T21:47:58.499+0200] {logging_mixin.py:190} INFO - [2025-02-28T21:47:58.499+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T21:47:58.505+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.077 seconds
+[2025-02-28T22:27:52.888+0200] {processor.py:186} INFO - Started process (PID=18101) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:27:52.889+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T22:27:52.890+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:52.890+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:27:52.893+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:27:52.983+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:52.983+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2025-02-28T22:27:52.986+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:52.986+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2025-02-28T22:27:52.987+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:52.987+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2025-02-28T22:27:52.990+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:52.990+0200] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_skip_dag
+[2025-02-28T22:27:52.992+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:52.991+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_skip_dag
+[2025-02-28T22:27:52.993+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:52.993+0200] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_skip_dag
+[2025-02-28T22:27:52.995+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:52.995+0200] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_skip_dag
+[2025-02-28T22:27:52.995+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:52.995+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:27:52.999+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:52.999+0200] {dag.py:3262} INFO - Creating ORM DAG for example_skip_dag
+[2025-02-28T22:27:53.002+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:27:53.002+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:27:53.007+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.120 seconds
+[2025-02-28T22:35:58.372+0200] {processor.py:186} INFO - Started process (PID=19749) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:35:58.373+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T22:35:58.374+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:35:58.374+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:35:58.376+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:35:58.466+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:35:58.466+0200] {override.py:1930} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2025-02-28T22:35:58.469+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:35:58.469+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2025-02-28T22:35:58.471+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:35:58.471+0200] {override.py:1930} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2025-02-28T22:35:58.473+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:35:58.473+0200] {override.py:1930} INFO - Created Permission View: can create on DAG Run:example_skip_dag
+[2025-02-28T22:35:58.475+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:35:58.475+0200] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:example_skip_dag
+[2025-02-28T22:35:58.477+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:35:58.477+0200] {override.py:1930} INFO - Created Permission View: can read on DAG Run:example_skip_dag
+[2025-02-28T22:35:58.478+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:35:58.478+0200] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:example_skip_dag
+[2025-02-28T22:35:58.479+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:35:58.479+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:35:58.482+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:35:58.482+0200] {dag.py:3262} INFO - Creating ORM DAG for example_skip_dag
+[2025-02-28T22:35:58.485+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:35:58.485+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:35:58.491+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.120 seconds
+[2025-02-28T22:38:14.043+0200] {processor.py:186} INFO - Started process (PID=20272) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:38:14.045+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T22:38:14.046+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:38:14.045+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:38:14.048+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:38:14.106+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:38:14.105+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:38:14.113+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:38:14.113+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:38:14.119+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.077 seconds
+[2025-02-28T22:39:27.911+0200] {processor.py:186} INFO - Started process (PID=20515) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:39:27.913+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T22:39:27.914+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:39:27.913+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:39:27.916+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:39:27.973+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:39:27.973+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:39:27.980+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:39:27.980+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:39:27.986+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.077 seconds
+[2025-02-28T22:41:06.971+0200] {processor.py:186} INFO - Started process (PID=20836) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:41:06.973+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T22:41:06.974+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:41:06.974+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:41:06.977+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:41:07.035+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:41:07.034+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:41:07.041+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:41:07.041+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:41:07.047+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.077 seconds
+[2025-02-28T22:42:16.773+0200] {processor.py:186} INFO - Started process (PID=21070) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:42:16.773+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T22:42:16.774+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:42:16.773+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:42:16.776+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:42:16.833+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:42:16.833+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:42:16.840+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:42:16.839+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:42:16.846+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.074 seconds
+[2025-02-28T22:43:32.150+0200] {processor.py:186} INFO - Started process (PID=21354) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:43:32.150+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T22:43:32.151+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:43:32.151+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:43:32.154+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:43:32.211+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:43:32.211+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:43:32.218+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:43:32.217+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:43:32.224+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.076 seconds
+[2025-02-28T22:44:48.734+0200] {processor.py:186} INFO - Started process (PID=21632) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:44:48.735+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T22:44:48.736+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:44:48.735+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:44:48.738+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:44:48.796+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:44:48.796+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:44:48.804+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:44:48.804+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:44:48.810+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.077 seconds
+[2025-02-28T22:46:31.913+0200] {processor.py:186} INFO - Started process (PID=21975) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:46:31.914+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T22:46:31.914+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:46:31.914+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:46:31.917+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:46:31.975+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:46:31.975+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:46:31.982+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:46:31.982+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:46:31.988+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.076 seconds
+[2025-02-28T22:48:30.445+0200] {processor.py:186} INFO - Started process (PID=22278) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:48:30.446+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T22:48:30.447+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:48:30.447+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:48:30.450+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:48:30.514+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:48:30.514+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:48:30.521+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:48:30.521+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:48:30.526+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.083 seconds
+[2025-02-28T22:54:48.522+0200] {processor.py:186} INFO - Started process (PID=22731) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:54:48.523+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T22:54:48.523+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:54:48.523+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:54:48.526+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:54:48.585+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:54:48.585+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:54:48.592+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:54:48.592+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:54:48.598+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.077 seconds
+[2025-02-28T22:56:31.313+0200] {processor.py:186} INFO - Started process (PID=23068) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:56:31.314+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T22:56:31.315+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:56:31.315+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:56:31.317+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:56:31.375+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:56:31.374+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:56:31.381+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:56:31.381+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:56:31.387+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.076 seconds
+[2025-02-28T22:57:59.174+0200] {processor.py:186} INFO - Started process (PID=23357) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:57:59.175+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T22:57:59.175+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:57:59.175+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:57:59.178+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:57:59.239+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:57:59.239+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:57:59.245+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:57:59.245+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:57:59.251+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.078 seconds
+[2025-02-28T22:59:16.976+0200] {processor.py:186} INFO - Started process (PID=23608) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:59:16.977+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T22:59:16.977+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:59:16.977+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:59:16.980+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T22:59:17.037+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:59:17.037+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T22:59:17.043+0200] {logging_mixin.py:190} INFO - [2025-02-28T22:59:17.043+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T22:59:17.049+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.075 seconds
+[2025-02-28T23:01:00.978+0200] {processor.py:186} INFO - Started process (PID=23974) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T23:01:00.979+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T23:01:00.979+0200] {logging_mixin.py:190} INFO - [2025-02-28T23:01:00.979+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T23:01:00.982+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T23:01:01.039+0200] {logging_mixin.py:190} INFO - [2025-02-28T23:01:01.039+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T23:01:01.045+0200] {logging_mixin.py:190} INFO - [2025-02-28T23:01:01.045+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T23:01:01.051+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.075 seconds
+[2025-02-28T23:02:15.278+0200] {processor.py:186} INFO - Started process (PID=24237) to work on /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T23:02:15.279+0200] {processor.py:914} INFO - Processing file /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2025-02-28T23:02:15.279+0200] {logging_mixin.py:190} INFO - [2025-02-28T23:02:15.279+0200] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T23:02:15.282+0200] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2025-02-28T23:02:15.339+0200] {logging_mixin.py:190} INFO - [2025-02-28T23:02:15.339+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-28T23:02:15.346+0200] {logging_mixin.py:190} INFO - [2025-02-28T23:02:15.346+0200] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2025-02-27 00:00:00+00:00, run_after=2025-02-28 00:00:00+00:00
+[2025-02-28T23:02:15.352+0200] {processor.py:208} INFO - Processing /Users/nampham/.pyenv/versions/3.12.9/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.075 seconds
